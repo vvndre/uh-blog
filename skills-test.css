@@ -1,0 +1,174 @@
+@media (max-width: 1200px) {
+  .col-md-4 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 991px) {
+  .col-md-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+.blog-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.author-img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.post-title {
+  color: #c8102e;
+}
+
+.post-title:hover {
+  color: #960c22;
+  text-decoration: underline;
+}
+
+.post-date {
+  font-size: 1rem;
+}
+
+.post-description {
+  font-size: 1.2rem;
+  color: black;
+}
+
+.sponsor-name {
+  color: #666;
+  font-size: 0.75rem;
+}
+
+.sponsor-name {
+  color: #666;
+  font-size: 0.75rem;
+}
+
+.card {
+  border: none;
+  padding: 15px;
+}
+
+.btn {
+  border-radius: 50px;
+}
+
+.admission-red-btn {
+  border-radius: 50px;
+  border: none;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.container .filter-bar {
+  max-width: 100%;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 150px;
+  padding: 8px 16px;
+  border-radius: 50px;
+  text-align: left;
+  font-size: 0.8rem;
+  border: 1px solid black;
+  background-color: white;
+  cursor: pointer;
+}
+
+.dropdown-btn .triangle {
+  transition: transform 0.3s ease;
+}
+
+.dropdown-btn.active .triangle {
+  transform: rotate(90deg);
+}
+
+.dropdown-btn:hover,
+.dropdown-content div:hover {
+  border: 1px solid #c8102e;
+  color: #c8102e;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 5px;
+  z-index: 10;
+  width: 120px;
+}
+
+.dropdown-content div {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.dropdown-content div:hover {
+  background: #f0f0f0;
+}
+
+.dropdown-item {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown {
+  position: relative;
+}
+
+#search-bar {
+  padding: 8px 16px;
+  border: 1px solid black;
+  border-radius: 20px;
+  width: 225px;
+  font-size: 0.8rem;
+}
+
+.search-container {
+  position: relative;
+  display: inline-block;
+}
+
+.magnifying-glass {
+  position: absolute;
+  right: 20px;
+  top: 13px;
+  width: 12px;
+  height: 12px;
+  mix-blend-mode: difference;
+}
+
+.dropdown-content div.active {
+  background-color: #f8f9fa;
+  color: #c8102e;
+  font-weight: bold;
+}
